@@ -14,9 +14,8 @@ $('#gomb3').on("click", function() {
     $('#gomb3').css("background-color", "red")
 })
 
-$("#gomb4").click(
-    (event) => {
+$("#gomb4").click((event) => {
         $('input').val(
             "blue")
         $('#gomb4').css("background-color", "blue")    
-    })
+})
